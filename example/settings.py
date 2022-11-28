@@ -86,9 +86,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'mytest',
-        'USER': 'postgres',
-        'PASSWORD': 'mysecretpassword',
-        'HOST': '127.0.0.1',
+        'USER': 'shahnaza',
+        'PASSWORD': 'Samirbek!9',
+        'HOST': 'educative-test.postgres.database.azure.com',
     }
 }
 
