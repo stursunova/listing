@@ -26,7 +26,7 @@ def new_listing(request):
     else:
         form = ListingForm(request.POST, request.FILES)
         if form.is_valid():
-            instance = form.save(commit=Fals)
+            instance = form.save(commit=False)
             instance.user = request.user
             instance.save()
             return redirect('listings:all_listings')
